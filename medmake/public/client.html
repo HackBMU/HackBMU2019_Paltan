@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>
+</title>
+</head>
+<body>
+<p>hello</p>
+
+<script>
+
+var id;
+var ws = new WebSocket("ws://192.168.43.17:9060");
+ws.onopen = (connected)=>{
+    console.log('sachin connected');
+    json_object={
+        "name":"sachin singh",
+        "contact":"8851911233"
+    };
+    ws.send(JSON.stringify(json_object));
+}
+
+ws.onmessage = (message)=>{
+    console.log(message);
+}
+</script>
+</body>
+</html>
