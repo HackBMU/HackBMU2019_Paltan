@@ -35,7 +35,7 @@ Please read [CONTRIBUTING.md](https://github.com/HackBMU/HackBMU2019_Paltan) for
 
 ## Authors
 
-* **Sachin Singh** - *Initial work* - [idowhatido](https://github.com/idowhatido)
+* **Sachin Singh and Ravi Goel** - *Initial work* - [idowhatido](https://github.com/idowhatido)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
