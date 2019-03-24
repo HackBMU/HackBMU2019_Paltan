@@ -29,8 +29,7 @@
     <div class="card">
          <ul class="collapsible">
     <li>
-      <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
-      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+      <p id = 'foo'></p>
     </li>
     </ul>
         <div class="card-content">
@@ -65,7 +64,11 @@ ws.onopen = (connected)=>{
 
 ws.onmessage = (message)=>{
     console.log(JSON.parse(message.data));
-
+    let messa = JSON.parse(message.data);
+    String reqURL = `http://maps.googleapis.com/maps/api/geocode/json?latlng="${messages.p_latitude}","${messages.p_longitude}"&sensor=true`;
+    console.log(reqURL);
+    //let help = `Need immediate help! Name : ${messages.p_name}, phone number: ${messages.p_contact}, address: ${messages.p_address} with location : ${reqURL}`;
+    //document.getElementById('foo').src = help;
 }
 </script>
 </body>
