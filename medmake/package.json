@@ -12,6 +12,7 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.5.1",
+    "requests": "^0.2.2",
     "socket-client": "^1.0.0",
     "websocket": "^1.0.28",
     "ws": "^6.2.0"
