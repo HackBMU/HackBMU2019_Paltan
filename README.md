@@ -26,7 +26,8 @@ Can be uploaded to Google Play Store or by local apk Installation
 
 * [Android Studio]https://developer.android.com/docs) - Framework for App development
 * [Flutter](https://flutter.dev/docs) - App delevelopment platform
-* [Django](https://docs.djangoproject.com/en/2.1/) - Backend
+* [MEAN STACK] - Backend
+* [WEBSOCKETS]  - NETWORKING
 
 ## Contributing
 
