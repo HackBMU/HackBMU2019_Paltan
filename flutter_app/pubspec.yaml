@@ -25,6 +25,7 @@ dependencies:
   barcode_scan: ^0.0.3
   web_socket_channel: ^1.0.9
   http : ^0.12.0+1
+  requests: ^1.0.2
 
 
 dev_dependencies:
@@ -42,6 +43,8 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+    - assets/map.jpg
 
   # To add assets to your application, add an assets section, like this:
   # assets:
